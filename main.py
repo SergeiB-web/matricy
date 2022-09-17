@@ -4,9 +4,10 @@ listC=[]
 for i in range(n):
     listC1 = []
     for j in range(m):
-        a = int(input())
+        a = int(input("a:"))
         listC1.append(a)
     listC.append(listC1)
+
 for i in listC:
     print(i)
 
